@@ -38,9 +38,9 @@ function javascript() { return src('../src/js/**/*')
 }
 
 const browserSyncOption = {
-  proxy: "http://toolwordpress.local/ ",// ローカルにある「Site Domain」に合わせる
-  notify: false,// ブラウザ更新時に出てくる通知を非表示にする
-}
+    proxy: "saneikogyo.local/ ", // ローカルにある「Site Domain」に合わせる
+    notify: false, // ブラウザ更新時に出てくる通知を非表示にする
+};
 
 function watchFiles() {
   browserSync.init(browserSyncOption);

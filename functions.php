@@ -37,4 +37,7 @@ get_template_part('parts/functions-lib/func-add-posttype-works');
 // （Event用）投稿の名称変更
 get_template_part('parts/functions-lib/func-add-posttype-post');
 
+// All-in-One WP Migrationによるエクスポート除外設定
+get_template_part('functions-lib/func-add-ai1wm-exclude');
+
 ?>
